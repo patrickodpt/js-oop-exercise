@@ -1,3 +1,5 @@
+const tama = require('./tamagotchi.js')
+
 console.log('player file is loaded');
 
 var player = {
@@ -15,3 +17,12 @@ var player = {
     console.log(tamagotchi.name + ' got some Zzzzs! Restedness: ' + tamagotchi.restedness);
   }
 }; //end player
+
+
+player.feedTamagotchi(tama.tama0)
+
+player.medicateTamagotchi(tama.tama1)
+
+player.knockOutTamagotchi(tama.tama2)
+
+player.knockOutTamagotchi(tama.tama3)

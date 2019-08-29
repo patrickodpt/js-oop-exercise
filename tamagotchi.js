@@ -36,3 +36,10 @@ tama0.cry()
 tama1.cry()
 tama2.puke()
 tama3.yawn()
+
+module.exports = {
+  tama0,
+  tama1,
+  tama2,
+  tama3
+}
