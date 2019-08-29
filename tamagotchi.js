@@ -7,7 +7,7 @@ class Tamagotchi {
   this.restedness = 10
   this.health = 10
   this.name = name
-  this.creatureType
+  this.creatureType = creatureType
   }
   cry() {
     this.foodInTummy -= 1
@@ -17,8 +17,8 @@ class Tamagotchi {
 }
 
 //create new Tamagotchis
-let tama0 = new Tamagotchi("Jim")
-let tama1 = new Tamagotchi("Pam")
+let tama0 = new Tamagotchi('Jim', 'salesman')
+let tama1 = new Tamagotchi('Pam', 'artist')
 
 //test out your Tamagotchies below via console.logs
 tama0.cry()
