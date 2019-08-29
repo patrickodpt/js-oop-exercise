@@ -23,6 +23,19 @@ class Tamagotchi {
     this.restedness -= 1
     console.log(`${this.name} has current restedness of: ${this.restedness}`)
   }
+  start() {
+    // TODO
+    console.log(`${this.name} has started~!`);
+    this.hungerTimer = setInterval(() => {this.cry()}, 6000)
+    this.yawnTimer = setInterval(() => {this.yawn()}, 10000)
+    this.sickTimer = setInterval(() => {this.puke()}, 20000)
+  }
+  stop() {
+    // TODO
+    clearInterval(this.hungerTimer)
+    clearInterval(this.yawnTimer)
+    clearInterval(this.sickTimer)
+  }
 }
 
 //create new Tamagotchis

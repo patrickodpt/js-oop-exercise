@@ -26,3 +26,5 @@ player.medicateTamagotchi(tama.tama1)
 player.knockOutTamagotchi(tama.tama2)
 
 player.knockOutTamagotchi(tama.tama3)
+
+tama.tama0.start()
